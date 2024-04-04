@@ -21,3 +21,19 @@ h1{
     color: var(--color-text-titles);
 }
 
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 2em;
+    margin-top: 1em;
+    padding-bottom: 2em;
+    border-radius: 2em;
+    background-color: gray;
+    & a {
+        text-decoration: none;
+        color: black;
+    }
+
+}
