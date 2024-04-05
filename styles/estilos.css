@@ -308,3 +308,52 @@ h3{
     font-weight: bold;
     font-size: 2rem;
 }
+
+#suscripcion{
+    background-color: var(--bakground-color);
+}
+
+#suscripcion form{
+    display: grid;
+    grid-template-rows: repeat(4, 3rem);
+    justify-content: center;
+    gap: 1rem;
+}
+
+#suscripcion form input{
+    border-radius: 15px;
+    padding: 0.4rem;
+}
+
+#titulo-suscribirse{
+    color: var(--color-text-titles);
+    text-align: center;
+}
+
+.boton-suscribir{
+    text-align: center;
+}
+
+.boton-suscribir input{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.boton-suscribir input:hover{
+    box-shadow: 0px 0px 5px red;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+.grupo-casilla{
+    padding: 1rem   ;
+}
+form#susc-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #111a;
+}
