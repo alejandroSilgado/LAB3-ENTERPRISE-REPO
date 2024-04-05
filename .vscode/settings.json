@@ -2,5 +2,6 @@
     "conventionalCommits.scopes": [
         "Publish index.html",
         "Create estilos.css and linked with index.html"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
