@@ -24,6 +24,7 @@ const mostrarProductos = async () => {
                 <img src=${producto.images} class="imagen-producto"/>
                 <h3 class="titulo"> ${producto.title} </h3>
                 <p class="descripcion"> ${producto.description} </p>
+                <button href="" class="buttonComprarAhora">Comprar Ahora</button>
             </div
                    
         `

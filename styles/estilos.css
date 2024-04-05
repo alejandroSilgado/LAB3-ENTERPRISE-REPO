@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&display=swap');
 
 :root{
-    --color-text-titles:#0099ff;
+    --color-text-titles:#499fd8;
 }
 
 *{
@@ -20,7 +20,7 @@ h1{
     font-family: "Exo 2", sans-serif;
     text-align: center;
     font-size: 5rem;
-    margin-top: 50px;
+    margin-top: 10px;
     color: var(--color-text-titles);
 }
 
@@ -86,4 +86,21 @@ header {
         border-radius: 10px;
         
     }
+}
+.descripcion{
+    margin-left: 20px;
+}
+.buttonComprarAhora{
+    border: 2px solid transparent;
+    padding: 1em;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 10px;
+}
+.buttonComprarAhora:hover{
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: var(--color-text-titles);
+    color: white;
+
 }
