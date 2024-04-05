@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&display=swap');
+
+:root{
+    --color-text-titles:#0099ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* svg{
+    position: absolute;
+    bottom: 0px;
+} */
+
+h1{
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 50px;
+    color: var(--color-text-titles);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    padding: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    & img {
+        border-radius: 50%;
+        height: 100px;
+    }
+    & nav {
+        width: 50%;
+    }
+     & .navegacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        padding: 1rem;
+        & a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.2rem;
+        }
+        & a:hover{
+            color: #0099ff;
+        }
+    
+    }
+}
+
+
+.productos {
+    padding: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    & .card {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 400px;
+        background: antiquewhite;
+        border-radius: 10px;
+        padding: 10px;
+        
+    }
+    & .card:hover {
+        cursor: pointer;
+        transform: translateY(-20px);
+    }
+    & .imagen-producto {
+        width: 230px;
+        height: 150px;
+        border-radius: 10px;
+        
+    }
+}
